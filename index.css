@@ -1,0 +1,46 @@
+body{
+background-color: white;
+height: 100vh;
+}
+.contenedorarriba{
+background-color: black;
+height: 30%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.rojoentero{
+display: flex;
+}
+.arribarojo{
+display: flex;
+height: 30%;
+width: 40%;
+align-self: center;
+justify-content: center;
+background-color: #ff9978;
+}
+.cuadradogris{
+height: 30%;
+width: 5%;
+background-color: #656a73;
+margin-right: 0%;
+}
+.lineasgris{
+height: 10%;
+width: 20%;
+margin: 4%;
+background-color: #cccbca;
+}
+.a{
+margin-left: 35%;
+}
+.adentrorojo{
+width: 90%;
+height: 30%;
+background-color: white;
+display: flex;
+align-self: center;
+}
