@@ -7,13 +7,89 @@ body{
 height: 100vh;
 }
 .amarillogrande{
-
+background-color: #ffd680;
+width: 100%;
+height: 25%;
+display: flex;
 }
-<div class="amarillogrande">
-<div class="cuadradoamarillo"></div>
-<div class="amarilloderecha">
-<div class="recamarillo"></div>
-<div class="lineablanca"></div>
-<div class="lineablanca"></div>
-<div class="lineablanca"></div>
-<div class="minilinea"></div>
+.cuadradoamarillo{
+background-color: #ffc86d;
+width: 12%;
+height: 70%;
+margin-top: 2%;
+margin-left: 10%;
+}
+.amarilloderecha{
+height: 100%;
+width: 70%;
+margin-left: 13%;
+}
+.recamarillo{
+width: 30%;
+height: 13%;
+background-color: #ffb959;
+margin-top: 3%;
+}
+.lineablanca{
+background-color: white;
+width: 80%;
+height: 7%;
+margin-top: 3%;
+}
+.minilinea{
+background-color: white;
+width: 40%;
+height: 7%;
+margin-top: 3%;
+}
+.medioentero{
+background-color: white;
+height: 60%;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.cuadrados{
+width: 16%;
+margin-left: 7%;
+height: 70%;
+background-color: blue;
+margin-top: 5%;
+}
+.celeste{
+background-color: #c4edf1;
+}
+.rojo{
+background-color: #ff9978;
+}
+.naranja{
+background-color: #ffd680;
+}
+.abajoentero{
+height: 15%;
+width: 100%;
+background-color: #e6e5e5;
+}
+.cuadradosarriba{
+display: flex;
+width: 80%;
+height: 50%;
+margin-left: 15%;
+}
+.cuadradosabajo{
+    display: flex;
+    width: 80%;
+    height: 50%;
+    margin-left: 15%;
+    }
+.recuadrado{
+width: 100%;
+height: 10%;
+background-color: black;
+}
+<div class="medioentero">
+<div class="cuadrados">
+    <div class="recuadrado"></div>
+    <div class="cuadrado2"></div>
