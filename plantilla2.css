@@ -1,0 +1,19 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+height: 100vh;
+}
+.amarillogrande{
+
+}
+<div class="amarillogrande">
+<div class="cuadradoamarillo"></div>
+<div class="amarilloderecha">
+<div class="recamarillo"></div>
+<div class="lineablanca"></div>
+<div class="lineablanca"></div>
+<div class="lineablanca"></div>
+<div class="minilinea"></div>
