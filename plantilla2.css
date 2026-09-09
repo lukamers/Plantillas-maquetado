@@ -16,7 +16,7 @@ display: flex;
 background-color: #ffc86d;
 width: 12%;
 height: 70%;
-margin-top: 2%;
+margin-top: 1.4%;
 margin-left: 10%;
 }
 .amarilloderecha{
@@ -28,19 +28,19 @@ margin-left: 13%;
 width: 30%;
 height: 13%;
 background-color: #ffb959;
-margin-top: 3%;
+margin-top: 2%;
 }
 .lineablanca{
 background-color: white;
 width: 80%;
 height: 7%;
-margin-top: 3%;
+margin-top: 2%;
 }
 .minilinea{
 background-color: white;
 width: 40%;
 height: 7%;
-margin-top: 3%;
+margin-top: 2%;
 }
 .medioentero{
 background-color: white;
@@ -50,11 +50,19 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: column;
 }
-
+.celesteoscuro{
+background-color: #abe0e5;
+}
+.rojooscuro{
+background-color: #f68360;
+}
+.naranjaoscuro{
+background-color: #ffc86d;
+}
 .cuadrados{
-width: 16%;
-margin-left: 7%;
-height: 70%;
+width: 14%;
+margin-left: 13%;
+height: 80%;
 background-color: blue;
 margin-top: 5%;
 }
@@ -75,13 +83,13 @@ background-color: #e6e5e5;
 .cuadradosarriba{
 display: flex;
 width: 80%;
-height: 50%;
+height: 40%;
 margin-left: 15%;
 }
 .cuadradosabajo{
     display: flex;
     width: 80%;
-    height: 50%;
+    height: 40%;
     margin-left: 15%;
     }
 .recuadrado{
