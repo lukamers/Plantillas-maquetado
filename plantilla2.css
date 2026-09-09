@@ -58,9 +58,12 @@ margin-left: 20%;
 .cuadrados{
 width: 30%;
 margin-left: 13%;
-height: 70%;
+height: 65%;
 background-color: blue;
 margin-top: 5%;
+}
+.abajo{
+height: 67%;
 }
 .celeste{
 background-color: #c4edf1;
@@ -72,7 +75,7 @@ background-color: #ff9978;
 background-color: #ffd680;
 }
 .abajoentero{
-height: 15%;
+height: 12%;
 width: 60%;
 background-color: #e6e5e5;
 margin-left: 20%;
@@ -99,17 +102,49 @@ background-color: black;
     .naranjaoscuro{
     background-color: #ffc86d;
     }
-.columnagris{
+.columnagris1{
 flex-direction: column;
+height: 100%;
+width: 25%;
+margin-left: 15.5%;
 }
+.columnagris2{
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    margin-left: 1.5%;
+    }
+    .columnagris3{
+        flex-direction: column;
+        height: 100%;
+        width: 25%;
+        margin-left: 2%;
+        }
 .grisarriba{
-
+background-color: #cccbca;
+width: 65%;
+height: 16%;
+margin-top: 8%;
+margin-bottom: 6%;
 }
-
-    <div class="columnagris">
-            <div class="grisarriba"></div>
-            <div class="lineasblancogris"></div>
-            <div class="lineasblancogris"></div>
-            <div class="lineasblancogris"></div>
-            <div class="minilineablancogris"></div>
-        </div>
+.lineasblancogris{
+width: 65%;
+height: 6%;
+background-color: white;
+margin-top: 5%;
+}
+.minilineablancogris{
+width: 32.5%;
+height: 6%;
+background-color: white;
+margin-left: 16.25%;
+margin-top: 5% ;
+}
+.cuadrado2{
+height: 55%;
+width: 50%;
+margin-left: 25%;
+margin-top: 15%;
+background-color: black;
+}
+   
