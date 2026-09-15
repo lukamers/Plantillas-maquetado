@@ -1,13 +1,138 @@
-.arribaentero{
-
+body{
+height: 100vh   ;
+background-color: #252d30;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
+.arribaentero{
+background-color: #3d6aae;
+height: 15%;
+width: 80%;
+margin-left: 10%;
+display: flex;
+align-items: center;
+}
+.cuadradoizq{
+height: 40%;
+aspect-ratio: 1/1;
+background-color: white;
+margin-left: 5%;
+}
+.lineablancaarriba{
+background-color: white;
+width: 18%;
+height: 22%;
+margin-left: 3%;
+}
+.buscador{
+background-color: white;
+height: 40%;
+width: 38%;
+margin-left: 3%;
+}
+.lineaderecha1{
+background-color: white;
+height: 22%;
+width: 10%;
+margin-left: 9%;
+}
+.lineaderecha2{
+    background-color: white;
+    height: 22%;
+    width: 6%;
+    margin-left: 1.5%;
+}
+.abajoentero{
+background-color: #ededed;
+height: 85%;
+width: 80%;
+margin-left: 10%;
+}
+.lineaarriba{
+height: 2%;
+background-color: white;
+width: 100%;
+}
+.recamarillo{
+width: 70%;
+height: 25%;
+margin-left: 5%;
+background-color: #efcb15;
+}
+.recblanco{
+height: 4%;
+width: 70%;
+margin-left: 5%;
+background-color: white;
+}
+.lineablancapaletas{
+width: 30%;
+height: 10%;
+background-color: white;
+margin-left: 5%;
+margin-top: 5%;
+}
+.recconpaletas{
+height: 40%;
+width: 30%;
+margin-left: 5%;
+margin-top: 2%;
+background-color: white;
+display: grid;
+}
+.paletas{
+width: 30%;
+height: 30%;
+background-color: black;
+}
+<div class="abajoentero">
+        <div class="lineaarriba"></div>
+        <div class="recamarillo"></div>
+        <div class="recblanco"></div>
+        <div class="lineablancapaletas"></div>
+        <div class="recconpaletas">
+            <div class="paletas"></div>
+            <div class="paletas"></div>
+            <div class="paletas"></div>
+            <div class="paletas"></div>
+            <div class="paletas"></div>
+            <div class="paletas"></div>
+            <div class="paletas"></div>
+            <div class="paletas"></div>
+            <div class="paletas"></div>
+        </div>
+        <div class="cosoderechapaleta1"></div>
+        <div class="cosoderechapaleta2"></div>
+        <div class="cosoderechapaleta3"></div>
+        <div class="cosoderechapaleta4"></div>
+        <div class="cosoderechapaleta5"></div>
+        <div class="listapaletas">
+            <div class="listapaletas"></div>
+            <div class="listapaletas"></div>
+            <div class="listapaletas"></div>
+            <div class="listapaletas"></div>
+            <div class="listapaletas"></div>
+            <div class="listapaletas"></div>
+            <div class="listapaletas"></div>
+            <div class="listapaletas"></div>
+            <div class="listapaletas"></div>
+            <div class="listapaletas"></div>
+            <div class="listapaletas"></div>
+            <div class="lineagris"></div>
+            <div class="lineagris"></div>
+            <div class="lineagris"></div>
+            <div class="lineagris"></div>
+            <div class="lineagris"></div>
+            <div class="lineagris"></div>
+            <div class="lineagris"></div>
+            <div class="lineagris"></div>
+            <div class="lineagris"></div>
+            <div class="lineagris"></div>
+            <div class="lineagris"></div>
+        </div>
 
-
-
-<div class="arribaentero">
-<div class="cuadradoizq"></div>
-<div class="lineablancaarriba"></div>
-<div class="buscador"></div>
-<div class="lineaderecha1"></div>
-<div class="lineaderecha2"></div>
+    </div>
