@@ -84,27 +84,49 @@ margin-top: 2%;
 background-color: white;
 display: grid;
 }
+.grupopaletas{
+width: 100%;
+height: 33%;
+display: flex;
+}
 .paletas{
-width: 30%;
-height: 30%;
+margin-top: 4%;
+margin-left: 3%;
+width: 29%;
+height: 200%;
 background-color: black;
 }
-<div class="abajoentero">
-        <div class="lineaarriba"></div>
-        <div class="recamarillo"></div>
-        <div class="recblanco"></div>
-        <div class="lineablancapaletas"></div>
-        <div class="recconpaletas">
-            <div class="paletas"></div>
-            <div class="paletas"></div>
-            <div class="paletas"></div>
-            <div class="paletas"></div>
-            <div class="paletas"></div>
-            <div class="paletas"></div>
-            <div class="paletas"></div>
-            <div class="paletas"></div>
-            <div class="paletas"></div>
-        </div>
+.cosoderechapaleta1{
+
+}
+.uno{
+background-color: #e8dda5;
+}
+.dos{
+background-color: #aba6e8;
+}
+.tres{
+background-color: #a7cce7;
+}
+.cuatro{
+background-color:#d8a7e9 ;
+}
+.cinco{
+background-color:#a8e8da ;
+}
+.seis{
+background-color:#d8a7e9 ;
+}
+.siete{
+background-color:#a8e7d9 ;
+}
+.ocho{
+background-color:#a7cce7 ;
+}
+.nueve{
+background-color:#e8dda5 ;
+}
+
         <div class="cosoderechapaleta1"></div>
         <div class="cosoderechapaleta2"></div>
         <div class="cosoderechapaleta3"></div>
